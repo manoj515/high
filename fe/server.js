@@ -12,7 +12,7 @@ mongoose
   .connect(
     "mongodb+srv://manojsaikumar:manojsai@ccoding.13uuyk0.mongodb.net/?retryWrites=true&w=majority"
   )
-  .then(() => console.log("Db change"))
+  .then(() => console.log("Db changed"))
   .catch(err=>{
     console.log(err)
   });
