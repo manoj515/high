@@ -159,4 +159,4 @@ app.put("/putuser/:id", async (req, res) => {
     console.log(err);
   }
 });
-app.listen(6000, () => console.log("Loading in port 6000...."));
+app.listen(3000, () => console.log("Loading in port 3000...."));
